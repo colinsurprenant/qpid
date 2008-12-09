@@ -39,3 +39,4 @@ spec = Gem::Specification.new do |s|
     "specs/official-amqp0-8.xml"
   ]
 end
+# dummy trigger 0 for github gem builder
