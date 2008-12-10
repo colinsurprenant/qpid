@@ -43,3 +43,9 @@ Note that in order for this gem to work with RabbitMQ you MUST use the added off
 **For Workling see:**
 * http://github.com/purzelrakete/workling/
 * http://playtype.net/past/2008/11/7/workling_0_4_0_is_out_with_rabbitmq_ampq_support/
+
+## Changelog
+
+**Version 0.1: 2008-12-09**
+
+* Inital release.
