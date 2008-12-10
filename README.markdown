@@ -2,7 +2,9 @@
 
 RubyGem version of the Apache Qpid AMQP client implementation in Ruby, version M3
 
-This is a repackaged & gemified version of the Ruby Apache Qpid client, version M3.
+Apache Qpid can be found here: http://cwiki.apache.org/qpid/
+
+This is a repackaged & gemified version of the Ruby Apache Qpid client, version M3. 
 The primary goal for this Gem was for usage with RabbitMQ and Worling for submitting job requests from a non-evented web server.
 
 ## Modified by
