@@ -191,7 +191,7 @@ module Qpid
     end
 
     def invoke(method, args, content = nil)
-      raise Closed() if closed?
+      raise Closed.new if closed?
       frame = Frame.new(@id, Method.new(method, args))
       @outgoing << frame
 

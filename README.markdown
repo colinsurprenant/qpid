@@ -1,8 +1,6 @@
 # Qpid Gem
 
-RubyGem version of the Apache Qpid AMQP client implementation in Ruby, version M3
-
-Apache Qpid can be found here: http://cwiki.apache.org/qpid/
+RubyGem version of the [Apache Qpid](http://cwiki.apache.org/qpid/) AMQP client implementation in Ruby, [version M3](http://www.apache.org/dist/incubator/qpid/M3-incubating/qpid-incubating-M3-ruby.tar.gz)
 
 This is a repackaged & gemified version of the Ruby Apache Qpid client, version M3. 
 The primary goal for this Gem was for usage with RabbitMQ and Worling for submitting job requests from a non-evented web server.
@@ -11,9 +9,9 @@ The primary goal for this Gem was for usage with RabbitMQ and Worling for submit
 
 ### Colin Surprenant, Praized Media
 
-* http://www.praizedmedia.com/
-* http://github.com/colinsurprenant/ 
-* http://eventuallyconsistent.com/blog/
+* [http://www.praizedmedia.com/](http://www.praizedmedia.com/)
+* [http://github.com/colinsurprenant/](http://github.com/colinsurprenant/) 
+* [http://eventuallyconsistent.com/blog/](http://eventuallyconsistent.com/blog/)
 
 ## Modifications to the original sources
 
@@ -21,6 +19,11 @@ The primary goal for this Gem was for usage with RabbitMQ and Worling for submit
 * addition of the official 0.8 AMQP spec
 * moved Spec module into Qpid module
 * reworked the scoping of the Spec loading methods
+* bug fix in 0.3.2 see changelog below
+
+## Versioning
+
+Since this is based on the "M3" version of  Apache Qpid, this gem will start at version "0.3". 
 
 ## Usage
 
@@ -48,6 +51,10 @@ Note that in order for this gem to work with RabbitMQ you MUST use the added off
 
 ## Changelog
 
-**Version 0.1: 2008-12-09**
+**Version 0.3.2: 2008-12-12**
 
-* Inital release.
+* (Colin Surprenant) Fixed Closed exception raising in Channel#invoke
+
+**Version 0.3.1: 2008-12-09**
+
+* (Colin Surprenant) Inital release.

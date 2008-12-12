@@ -1,7 +1,7 @@
 spec = Gem::Specification.new do |s|
   s.name = 'qpid'
-  s.version = '0.3.1'
-  s.date = '2008-12-09'
+  s.version = '0.3.2'
+  s.date = '2008-12-12'
   s.summary = 'Apache Qpid AMQP client implementation in Ruby'
   s.email = "qpid-dev@incubator.apache.org"
   s.homepage = "http://github.com/colinsurprenant/qpid/"
